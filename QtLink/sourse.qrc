@@ -1,0 +1,16 @@
+<RCC>
+    <qresource prefix="/new/prefix1">
+        <file>resourse/closebutton.jpg</file>
+        <file>resourse/doublebutton.jpg</file>
+        <file>resourse/lodbutton.jpg</file>
+        <file>resourse/signalbutton.jpg</file>
+        <file>resourse/button.jpg</file>
+        <file>resourse/signal_game_mode_help.jpg</file>
+        <file>resourse/double_game_mode_help.jpg</file>
+        <file>resourse/window_Icon.jpg</file>
+    </qresource>
+    <qresource prefix="/new/prefix2">
+        <file>save/double_game_mode.txt</file>
+        <file>save/signal_game_mode.txt</file>
+    </qresource>
+</RCC>

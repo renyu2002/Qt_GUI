@@ -1,0 +1,14 @@
+release/double_game_window.o
+release/main.o
+release/mainwindow.o
+release/map.o
+release/mypushbutton.o
+release/signal_game_window.o
+release/simpletest.o
+release/qrc_sourse.o
+release/moc_double_game_window.o
+release/moc_mainwindow.o
+release/moc_map.o
+release/moc_mypushbutton.o
+release/moc_signal_game_window.o
+release/moc_simpletest.o

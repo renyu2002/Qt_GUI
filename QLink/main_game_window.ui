@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainGameWindow</class>
+ <widget class="QMainWindow" name="MainGameWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1411</width>
+    <height>1000</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainGameWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(205, 249, 255);</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <widget class="QWidget" name="widget" native="true">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>1171</width>
+      <height>46</height>
+     </rect>
+    </property>
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <item>
+      <widget class="QLabel" name="label">
+       <property name="text">
+        <string>时间：</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QProgressBar" name="timeBar">
+       <property name="value">
+        <number>24</number>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="hintBtn">
+       <property name="styleSheet">
+        <string notr="true">background-color: rgba(11, 255, 36, 161);</string>
+       </property>
+       <property name="text">
+        <string>hints</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1411</width>
+     <height>26</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuGame">
+    <property name="title">
+     <string>开始</string>
+    </property>
+    <addaction name="actionsignal"/>
+    <addaction name="actiondouble"/>
+    <addaction name="separator"/>
+    <addaction name="actionpause"/>
+    <addaction name="actionlogin"/>
+    <addaction name="actionclose"/>
+   </widget>
+   <addaction name="menuGame"/>
+  </widget>
+  <action name="actionsignal">
+   <property name="text">
+    <string>单人模式</string>
+   </property>
+  </action>
+  <action name="actionMedium">
+   <property name="text">
+    <string>medium</string>
+   </property>
+  </action>
+  <action name="actionHard">
+   <property name="text">
+    <string>hard</string>
+   </property>
+  </action>
+  <action name="actiondouble">
+   <property name="text">
+    <string>双人模式</string>
+   </property>
+  </action>
+  <action name="actionlogin">
+   <property name="text">
+    <string>载入</string>
+   </property>
+  </action>
+  <action name="actionclose">
+   <property name="text">
+    <string>关闭</string>
+   </property>
+  </action>
+  <action name="actionpause">
+   <property name="text">
+    <string>暂停</string>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>

@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/new/prefix1">
+        <file>resource/src=http___pic.51yuansu.com_pic3_cover_00_89_45_58dbb170ddb56_610.jpg&amp;refer=http___pic.51yuansu.jfif</file>
+        <file>resource/button.jpg</file>
+    </qresource>
+</RCC>
